@@ -3,7 +3,7 @@ time  {
 #do
 a=$1;
     array=();
-    for i in {1..3}; do
+    for i in {1..40}; do
       array+=(--next $a
   ) ;
    done;
